@@ -1,0 +1,532 @@
+div.logomarca{
+    background-color: #5a3d4a;
+    width: 1900px;
+    height: 150px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    
+}
+
+img.makeb-LogodaMakeBeauty {
+    width: 600px;
+    height: 250px;
+    margin-top: -20px;
+}
+
+h1{
+    color: #F2E9E4;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 0px
+}
+
+h2{
+    color: #F2E9E4;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*caixinha do h1*/
+h1{
+    background-color: #5a3d4a;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    padding: 8px 0;
+    width: 45%;
+    border-radius: 50px;
+}
+    
+
+/*bloco de cadastro*/
+.tela-cadastro {
+    background-color: #5a3d4a; 
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 35px 40px;
+    border-radius: 60px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    box-sizing: border-box;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* espaço entre as linhas */
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Nome, email, CPF */
+.campo label {
+    color: #ffffff;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1.25rem;
+    width: 100%;
+    max-width: 280px; /* Garante o alinhamento antes do input */
+    padding-right: 15px;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+/* caixa p/ escrever */
+.campo input {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px; /* Formato pílula */
+    width: 90%;
+    font-size: 1rem;
+    color: #333333;
+    box-sizing: border-box;
+}
+/*texto das caixinhas*/
+.campo input::placeholder {
+    color: #a0a0a0;
+    font-style: italic;
+}
+
+/* Botão de Enviar (Cadastrar) */
+.btn-cadastrar {
+    background-color: #fff;
+    color: #5a3d4a;
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+.btn-cadastrar:hover {
+    background-color: #5a3d4a;
+}
+/*texto "ja possuo cadastro"*/
+.link-login-container {
+    width: 100%;
+    max-width: 650px;
+    text-align: right;
+    margin-top: -20px;
+    padding-right: 10px;
+}
+.link-login-container a {
+    color: #6c8ebb;
+    font-size: 20px;
+    font-weight: 500;
+}
+.link-login-container a:hover {
+    text-decoration: underline;
+}
+
+
+/*segunda tela(login)*/
+.tela-login{
+    background-color: #5a3d4a;
+    width: 700px;
+    height: 500px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+
+/*tela inicial*/
+.carrinho{
+    position: fixed;
+    top: 60px; /* Distância do topo */
+    left: 1700px; /* Distância da esquerda */
+    width: 45px; /* Tamanho do ícone */
+    height: auto;
+    z-index: 1000; /* Garante que fique por cima de outros elementos */
+}
+.linhas{
+    position: fixed;
+    top: 60px; /* Distância do topo */
+    left: 1770px; /* Distância da esquerda */
+    width: 45px; /* Tamanho do ícone */
+    height: auto;
+    z-index: 1000; /* Garante que fique por cima de outros elementos */
+}
+.tela-logo{
+    background-color: #5a3d4a;
+    height: 70px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+input {
+  width: 600px;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 22px;
+  margin-left: 5px;
+  border: none;
+}
+input::placeholder {
+  font-family: 'josefin sans', sans-serif;
+  font-size: 20px;
+}
+
+
+nav {
+  padding: 20px;
+  margin: 40px auto;
+  font-size: 30px;
+  font: 'josefin-sans' sans-serif;
+
+}
+
+
+.link-container{
+    background-color: #5a3d4a;
+    border-radius: 40px;
+    width: 400px;
+
+}
+/* Cor normal */
+a {
+  color: bisque;
+}
+
+/* Quando já foi visitado */
+a:visited {
+  color: burlywood;
+}
+.tela-inicial{
+    background-color: rgb (230,225,225);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.icone{
+    width: 25px;    
+    height: 25px;
+}
+.logomarca{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    height: 50;
+    width: 100px;
+}
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    
+}
+h2{
+    color:#5a3d4a;
+    font-family: 'josefin sans', sans-serif;
+    text-align: center;
+    
+}
+/*catalogo*/
+.grid {
+    display: grid;
+    /* Cria 3 colunas de tamanhos iguais */
+    grid-template-columns: repeat(3, 5fr); 
+    /* Espaçamento entre as fotos */
+    gap: 100px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h1-promo{ 
+  font-family: 'josefin sans', sans-serif;
+  text-align: center; 
+  width: 500px;  
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+ 
+}
+img.gloss-ice{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+img.base-liquida{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+img.biglash-bt{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+img.glossli{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+img.best-skin-ever{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+img.lapis-lui{
+    width: 250px;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+
+
+
+
+
+h1{
+    color: #F2E9E4;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-labios{
+     display: grid;
+    /* Cria 3 colunas de tamanhos iguais */
+    grid-template-columns: repeat(7, 7fr); 
+    /* Espaçamento entre as fotos */
+    gap: 125px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img.labial1{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+img.labial2{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial3{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial4{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial5{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial6{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial7{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial8{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial9{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial10{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial11{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial12{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial13{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial14{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial15{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial16{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial17{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial18{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial19{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial20{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial21{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial22{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img.labial23{
+    width: 330%;
+    height: 240px; /* Altura fixa para todas as fotos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.div-base{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    p{
+    font-size: 20px;
+    max-width: 450px;
+    line-height: 1.6;
+    }
+    h2{
+    margin-bottom: 0;
+    }
+   .desconto{
+    margin-top: 0;
+    text-align: center;
+    }
+}
+.base-liquid{
+    width: 550px;
+    height: 500px;
+}
+button{
+    padding: 15px 30px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #5a3d4a;
+    color: white;
+}
+
+/*LOGO MB*/
+.logo67{
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    width: 120px;
+    z-index: 1000;
+}
+
+img.voltar{
+    width: 30px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+.barrabottom{
+    background-color: #5a3d4a;
+    width: 1900px;
+    height: 150px;
+    border-bottom: 2px solid #5a3d4a; /* linha embaixo */
+    display: flex;
+    align-items: center;
+}
+
